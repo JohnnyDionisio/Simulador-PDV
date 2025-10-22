@@ -1,0 +1,89 @@
+.cadastro {
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid var(--border-mode);
+    background-color: color-mix(in srgb, var(--bg-mode) 75%, white);
+}
+
+.formFields {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+
+.w250 {
+    width: 250px;
+}
+
+.w80 {
+    width: 80px;
+}
+
+button {
+    width: 100px;
+    min-height: 28px;
+    border-radius: 10px;
+    border: 0px;
+    margin-top: 25px;
+}
+
+#btnCadastrar {
+    background-color: #0c9b1a;
+    color: white;
+    margin-right: 25px ;
+}
+#btnCadastrar:hover {
+    background-color: #0a7d15;
+    cursor: pointer;
+}
+
+#btnReset {
+    background-color: darkslategray;
+    color: white;
+}
+#btnReset:hover {
+    background-color: #2f4f4f;
+    cursor: pointer;
+}
+
+@font-face {
+    font-family: 'Vogue';
+    src: url(../fonts/Vogue.ttf);
+}
+@font-face {
+    font-family: 'Paris Forbel';
+    src: url(../fonts/Paris\ Forbel\ TTF.ttf);
+}
+
+input, select {
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 5px;
+    font-family: 'Vogue';
+    margin: 0px 10px 15px 10px;
+}
+
+table {
+    width: 100%;
+    margin: 25px 0px;
+}
+
+thead tr {
+    background-color: var(--bg-logo);
+    color: var(--font-sidebar);
+    font-family: 'Paris Forbel';
+    font-size: 12px;
+}
+
+tr, th {
+    text-align: center;
+}
+
+tr:nth-child(even){
+    background-color: color-mix(in srgb, var(--bg-mode) 75%, white);
+}
+
+.apagar {
+    color: rgb(217, 73, 73);
+    cursor: pointer;
+}
